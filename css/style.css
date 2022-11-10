@@ -61,6 +61,10 @@ svg {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.home {
+  position: relative;
+}
+
 .home .home-img img {
   animation: homeAnimation 6s linear infinite;
 }
@@ -78,5 +82,45 @@ svg {
   }
   75% {
     transform: translateX(-30px);
+  }
+}
+
+.home .shape div {
+  position: absolute;
+  opacity: 0.08;
+  width: 100px;
+  height: 100px;
+}
+
+.home .shape div:nth-child(1) {
+  top: 70%;
+  right: -2%;
+  background: url("../imgs/star-solid.svg");
+  background-repeat: no-repeat;
+  animation: shapeAnimation 8s linear infinite;
+}
+
+.home .shape div:nth-child(2) {
+  top: 40%;
+  left: -2%;
+  background: url("../imgs/star-solid.svg");
+  background-repeat: no-repeat;
+  animation: shapeAnimation 8s linear infinite;
+}
+
+.home .shape div:nth-child(3) {
+  top: 15%;
+  left: 40%;
+  background: url("../imgs/star-solid.svg");
+  background-repeat: no-repeat;
+  animation: shapeAnimation 8s linear infinite;
+}
+
+@keyframes shapeAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
