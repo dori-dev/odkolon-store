@@ -46,17 +46,37 @@ svg {
 }
 
 .text-light {
-  color: #f9f9f9 !important;
+  color: #f5f5f5 !important;
 }
 
 .text-light:hover {
-  color: #f0f0f0 !important;
+  color: #fff !important;
 }
 
 .text-lighter {
   color: #fcfcfc !important;
 }
 
-.text-lighter:hover {
-  color: #f5f5f5 !important;
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.home .home-img img {
+  animation: homeAnimation 6s linear infinite;
+}
+
+@keyframes homeAnimation {
+  0%,
+  100% {
+    transform: translateY(15px);
+  }
+  25% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  75% {
+    transform: translateX(-30px);
+  }
 }

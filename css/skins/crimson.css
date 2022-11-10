@@ -1,3 +1,12 @@
-.header {
+.header,
+.home {
   background-color: #d63031;
+}
+
+.home a {
+  transition: all 0.2s ease-in-out;
+}
+
+.home a:hover {
+  color: #d63031 !important;
 }
