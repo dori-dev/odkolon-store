@@ -33,16 +33,16 @@ svg {
   font-family: "vazir-bold";
 }
 
+h6.btn {
+  pointer-events: none;
+}
+
 .ml-4 {
   margin-left: 2rem !important;
 }
 
 .text-dark {
   color: #333 !important;
-}
-
-.text-dark:hover {
-  color: #111 !important;
 }
 
 .text-light {
@@ -90,30 +90,24 @@ svg {
   opacity: 0.08;
   width: 100px;
   height: 100px;
+  background: url("../imgs/star-solid.svg");
+  background-repeat: no-repeat;
+  animation: shapeAnimation 10s linear infinite;
 }
 
 .home .shape div:nth-child(1) {
   top: 70%;
-  right: -2%;
-  background: url("../imgs/star-solid.svg");
-  background-repeat: no-repeat;
-  animation: shapeAnimation 8s linear infinite;
+  right: 2%;
 }
 
 .home .shape div:nth-child(2) {
   top: 40%;
-  left: -2%;
-  background: url("../imgs/star-solid.svg");
-  background-repeat: no-repeat;
-  animation: shapeAnimation 8s linear infinite;
+  left: 2%;
 }
 
 .home .shape div:nth-child(3) {
   top: 15%;
   left: 40%;
-  background: url("../imgs/star-solid.svg");
-  background-repeat: no-repeat;
-  animation: shapeAnimation 8s linear infinite;
 }
 
 @keyframes shapeAnimation {
@@ -123,4 +117,20 @@ svg {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.about {
+  padding: 100px 0;
+}
+
+.about .about-img img {
+  width: 220px;
+}
+
+.about ul li {
+  margin-bottom: 10px;
+}
+
+.about ul svg {
+  margin-left: 2px;
 }

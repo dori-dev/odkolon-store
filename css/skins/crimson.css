@@ -10,3 +10,12 @@
 .home a:hover {
   color: #d63031 !important;
 }
+
+.about .title h6 {
+  background-color: #d63031;
+  color: #fcfcfc;
+}
+
+.about ul svg {
+  fill: #d63031;
+}
