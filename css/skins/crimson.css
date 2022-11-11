@@ -11,11 +11,12 @@
   color: #d63031 !important;
 }
 
-.about .title h6 {
+.title h6 {
   background-color: #d63031;
   color: #fcfcfc;
 }
 
-.about ul svg {
+.about ul svg,
+.features-item svg {
   fill: #d63031;
 }
