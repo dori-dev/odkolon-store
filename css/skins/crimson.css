@@ -20,3 +20,8 @@
 .features-item svg {
   fill: #d63031;
 }
+
+.products .owl-carousel button.owl-next,
+.products .owl-carousel button.owl-prev {
+  color: #d63031;
+}
