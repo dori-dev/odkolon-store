@@ -25,3 +25,11 @@
 .products .owl-carousel button.owl-prev {
   color: #d63031;
 }
+
+.testimonial::before {
+  background-color: #d63031;
+}
+
+.testimonial .testimonial-item .testimonial-comment .stars svg {
+  fill: #d63031;
+}
