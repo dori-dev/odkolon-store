@@ -328,3 +328,20 @@ h6.btn {
 .testimonial .testimonial-item .client-info .desc h5 {
   font-size: 22px;
 }
+
+.testimonial .owl-carousel .owl-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.testimonial .owl-carousel button.owl-next,
+.testimonial .owl-carousel button.owl-prev {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  color: #fcfcfc;
+}
