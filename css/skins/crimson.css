@@ -1,6 +1,11 @@
+:root {
+  --color: #d63031;
+  --color-dark: #c42727;
+}
+
 .header,
 .home {
-  background-color: #d63031;
+  background-color: var(--color);
 }
 
 .home a {
@@ -8,28 +13,37 @@
 }
 
 .home a:hover {
-  color: #d63031 !important;
+  color: var(--color) !important;
 }
 
 .title h6 {
-  background-color: #d63031;
+  background-color: var(--color);
   color: #fcfcfc;
 }
 
 .about ul svg,
 .features-item svg {
-  fill: #d63031;
+  fill: var(--color);
 }
 
 .products .owl-carousel button.owl-next,
 .products .owl-carousel button.owl-prev {
-  color: #d63031;
+  color: var(--color);
 }
 
-.testimonial::before {
-  background-color: #d63031;
+.testimonial::before,
+.newsletter::before {
+  background-color: var(--color);
 }
 
 .testimonial .testimonial-item .testimonial-comment .stars svg {
-  fill: #d63031;
+  fill: var(--color);
+}
+
+.newsletter button {
+  background-color: var(--color);
+}
+
+.newsletter button:hover {
+  background-color: var(--color-dark) !important;
 }
