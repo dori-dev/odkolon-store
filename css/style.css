@@ -128,7 +128,8 @@ h6.btn {
 .about,
 .features,
 .products,
-.testimonial {
+.testimonial,
+.faq {
   padding: 100px 0;
 }
 
@@ -344,4 +345,11 @@ h6.btn {
   justify-content: center;
   margin: 0 20px;
   color: #fcfcfc;
+}
+
+/* FAQ */
+
+.faq .faq-item {
+  padding: 0 15px;
+  margin-bottom: 45px;
 }
