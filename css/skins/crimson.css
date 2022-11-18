@@ -1,6 +1,7 @@
 :root {
   --color: #d63031;
   --color-dark: #c42727;
+  --color-rgb: 214, 48, 49;
 }
 
 .header,
@@ -40,10 +41,20 @@
   fill: var(--color);
 }
 
-.newsletter button {
+.newsletter button,
+.contact .contact-form button {
   background-color: var(--color);
 }
 
-.newsletter button:hover {
+.newsletter button:hover,
+.contact .contact-form button:hover {
   background-color: var(--color-dark) !important;
+}
+
+.contact .contact-form input:focus {
+  border-bottom: 2px solid rgba(var(--color-rgb), 0.6);
+}
+
+.contact .contact-form textarea:focus {
+  border: 2px solid rgba(var(--color-rgb), 0.6);
 }

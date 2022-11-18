@@ -131,7 +131,8 @@ h6.btn {
 .products,
 .testimonial,
 .faq,
-.newsletter {
+.newsletter,
+.contact {
   padding: 100px 0;
 }
 
@@ -214,7 +215,7 @@ h6.btn {
 .products .product-item .product-img .overlay a {
   font-size: 22px;
   color: #fcfcfc;
-  border: 1px solid #fcfcfc;
+  border: 2px solid #fcfcfc;
   border-radius: 25px;
   padding: 2px 10px;
   background-color: #111;
@@ -397,5 +398,40 @@ h6.btn {
 }
 
 .newsletter button:hover {
+  color: #fcfcfc !important;
+}
+
+/* Contact */
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+  font-size: 18px;
+  width: 100%;
+  margin: 10px 0;
+  background-color: #fafafa;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .contact-form input {
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.contact .contact-form textarea {
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.contact .contact-form button {
+  margin-top: 15px;
+  width: 100%;
+  font-size: 18px;
+  color: #fcfcfc;
+}
+
+.contact .contact-form button:hover {
   color: #fcfcfc !important;
 }
