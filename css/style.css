@@ -473,3 +473,48 @@ h6.btn {
     padding: 0 12px;
   }
 }
+
+/* Footer */
+
+.footer {
+  padding: 80px 0;
+  position: relative;
+}
+
+.footer ul li {
+  margin: 0 10px;
+}
+
+.footer ul li a .icon {
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.footer ul li a svg {
+  fill: #f5f5f5;
+  width: 30px;
+  height: 30px;
+  transition: all 0.1s ease-in-out;
+}
+
+.footer ul li a:hover .icon {
+  border: 2px solid #fff;
+  transform: translateY(-5px);
+}
+
+.footer ul li a:hover svg {
+  fill: #fff;
+}
+
+.footer ul {
+  padding-bottom: 30px;
+}
+
+.footer .copy-right {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}

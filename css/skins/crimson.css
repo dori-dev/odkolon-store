@@ -62,3 +62,7 @@
 .contact .contact-info .contact-item .icon {
   fill: var(--color);
 }
+
+.footer {
+  background-color: var(--color);
+}
