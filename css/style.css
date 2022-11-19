@@ -435,3 +435,41 @@ h6.btn {
 .contact .contact-form button:hover {
   color: #fcfcfc !important;
 }
+
+.contact .contact-info {
+  padding-right: 40px;
+}
+
+.contact .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact .contact-info .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact .contact-info .contact-item .icon {
+  margin-left: 15px;
+}
+
+.contact .contact-info .contact-item .icon svg {
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+}
+
+.contact .contact-info .contact-item .contact-desc p,
+.contact .contact-info .contact-item .contact-desc h5 {
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .contact .contact-info {
+    margin: 30px 0;
+    padding: 0 12px;
+  }
+}

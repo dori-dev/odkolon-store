@@ -58,3 +58,7 @@
 .contact .contact-form textarea:focus {
   border: 2px solid rgba(var(--color-rgb), 0.6);
 }
+
+.contact .contact-info .contact-item .icon {
+  fill: var(--color);
+}
