@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   outline: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -102,12 +103,12 @@ h6.btn {
 
 .home .shape div:nth-child(1) {
   top: 70%;
-  right: 2%;
+  right: 10%;
 }
 
 .home .shape div:nth-child(2) {
   top: 40%;
-  left: 2%;
+  left: 10%;
 }
 
 .home .shape div:nth-child(3) {
@@ -121,6 +122,15 @@ h6.btn {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home {
+    padding-top: 120px;
+  }
+  .home .home-img img {
+    margin: 50px 30px;
   }
 }
 
@@ -329,6 +339,20 @@ h6.btn {
   object-fit: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonial .testimonial-item .client-info .img img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .testimonial .testimonial-item .client-info .img img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
 .testimonial .testimonial-item .client-info .desc h5 {
   font-size: 22px;
 }
@@ -517,4 +541,27 @@ h6.btn {
   bottom: 0;
   padding: 20px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .footer ul li {
+    margin: 0 8px;
+  }
+  .footer ul li a .icon {
+    padding: 5px;
+  }
+  .footer ul li a svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer ul li {
+    margin: 0 5px;
+  }
+  .footer ul li a svg {
+    width: 25px;
+    height: 25px;
+  }
 }
