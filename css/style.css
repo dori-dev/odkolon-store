@@ -8,6 +8,10 @@
   src: url("../fonts/vazir-bold.woff2") format("woff2");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "vazir";
   direction: rtl;
@@ -52,7 +56,7 @@ h6.btn {
 }
 
 .text-light:hover {
-  color: #fff !important;
+  color: #fcfcfc !important;
 }
 
 .text-lighter {
@@ -63,6 +67,11 @@ h6.btn {
 
 .header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.header .navbar-nav .active {
+  color: #fcfcfc !important;
+  font-family: "vazir-bold";
 }
 
 /* Home */
@@ -524,12 +533,12 @@ h6.btn {
 }
 
 .footer ul li a:hover .icon {
-  border: 2px solid #fff;
+  border: 2px solid #fefefe;
   transform: translateY(-5px);
 }
 
 .footer ul li a:hover svg {
-  fill: #fff;
+  fill: #fefefe;
 }
 
 .footer ul {
