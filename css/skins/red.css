@@ -1,0 +1,68 @@
+:root {
+  --color: #c0392b;
+  --color-dark: #aa3427;
+  --color-rgb: 192, 57, 43;
+}
+
+.header,
+.home {
+  background-color: var(--color);
+}
+
+.home a {
+  transition: all 0.2s ease-in-out;
+}
+
+.home a:hover {
+  color: var(--color) !important;
+}
+
+.title h6 {
+  background-color: var(--color);
+  color: #fcfcfc;
+}
+
+.about ul svg,
+.features-item svg {
+  fill: var(--color);
+}
+
+.products .owl-carousel button.owl-next,
+.products .owl-carousel button.owl-prev {
+  color: var(--color);
+}
+
+.testimonial::before,
+.newsletter::before {
+  background-color: var(--color);
+}
+
+.testimonial .testimonial-item .testimonial-comment .stars svg {
+  fill: var(--color);
+}
+
+.newsletter button,
+.contact .contact-form button {
+  background-color: var(--color);
+}
+
+.newsletter button:hover,
+.contact .contact-form button:hover {
+  background-color: var(--color-dark) !important;
+}
+
+.contact .contact-form input:focus {
+  border-bottom: 2px solid rgba(var(--color-rgb), 0.6);
+}
+
+.contact .contact-form textarea:focus {
+  border: 2px solid rgba(var(--color-rgb), 0.6);
+}
+
+.contact .contact-info .contact-item .icon {
+  fill: var(--color);
+}
+
+.footer {
+  background-color: var(--color);
+}
